@@ -80,6 +80,10 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+# static main.js
+Data_Analyst/frontend/static/frontend/
+
+
 # dotenv
 .env
 
