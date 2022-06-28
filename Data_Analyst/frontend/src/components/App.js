@@ -1,19 +1,25 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
+import React from "react";
 
-export default class App extends Component {
-    constructor(props) {
-        super(props);
-    }
+import "./app.scss";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from "./navbar/navbarElements";
+import Header from "./header/Header";
 
-    render() {
-        return (
-            <div>
-                <h1>Hello World</h1>
-            </div>
-        );
-    }
+function App() {
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Navbar>
+                    <Routes>
+                        <Route path="/" element={<h1>Home</h1>} />
+                        <Route path="/login" element={<h1>Home</h1>} />
+                        <Route path="/dashboard" element={<h1>Home</h1>} />
+                    </Routes>
+                </Navbar>
+            </BrowserRouter>
+            <Header />
+        </div>
+    );
 }
 
-const appDiv = document.getElementById("app");
-render(<App />, appDiv);
+export default App;

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+$Poppins: "Kdam Thmor Pro", sans-serif;
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+$red: #ff3860;
+$red-dark: #ff1443;
+$red-light: #ff5c7c;
+$blue: #498afb;
+$blue-dark: #2674fa;
+$blue-light: #6ca0fc;
+$orange: #fa8142;
+$orange-dark: #f96a1f;
+$orange-light: #fb9865;
+$green: #09c372;
+$green-dark: #07a15e;
+$green-light: #0be586;
+$purple: #9166cc;
+$purple-dark: #7d4bc3;
+$purple-light: #a481d5;
+$pink: #ff4088;
+$pink-dark: #ff1c72;
+$pink-light: #ff649e;
+$gray0: #f8f8f8;
+$gray1: #dbe1e8;
+$gray2: #b2becd;
+$gray3: #6c7983;
+$gray4: #2f2f36;
+$gray5: #25252A;
+$gray6: #12181b;
+
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+$nav-width: 4em;
+$font-body: "sofia-pro",sans-serif;
+$font-head: "cubano",sans-serif;
+$font-code: "attribute-mono",monospace;
+$font-size: 20px;
+$max-width-bp: 768px;
+$orange-pink: linear-gradient(to bottom right,var(--orange-light),var(--orange-dark) 85%);
+$green-grad: linear-gradient(to bottom right,var(--green-light),var(--green-dark) 85%);
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
+
+@mixin gradient-text($color1: #fa8142, $color2: #ff4088) {
+    background: linear-gradient(to right, $color1, $color2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+  }
+
+.body {
+    background-color: #07a15e; 
+}
