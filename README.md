@@ -89,7 +89,7 @@ Install NodeJs (If already installed, skip this step)
 Install Dependencies
 </summary>
 
-### This step install all necessary dependencies into your virtual environment to make the project work
+### This step installs all necessary dependencies into your virtual environment to make the project work
 
 Change your directory to
 
@@ -164,5 +164,7 @@ this will start a development server using Django
 # Contributing
 
 Anyone is welcome to contribute, before doing so, please contact me on Discord: `DaveDev#8042` and i'd love to have a chat with you.
+
+If you have any suggestions, but dont want to contribute anything, feel free message me on Discord too :D.
 
 ---
