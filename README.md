@@ -89,7 +89,7 @@ Install NodeJs (If already installed, skip this step)
 Install Dependencies
 </summary>
 
-### This step install all necessary dependencies into your virtual environment to make the project work
+### This step installs all necessary dependencies into your virtual environment to make the project work
 
 Change your directory to
 
