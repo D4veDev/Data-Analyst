@@ -29,7 +29,7 @@ Activate the virtual environment, run:
 .\.venv\Scripts\Activate.ps1
 ```
 
-You should now see a (.venv) in front of your current directory in the terminal like this: `(.venv) PS D:\Programming\Projects\Data-Analyst> `
+You should now see a (.venv) in front of your current directory in the terminal like this: `(.venv) PS ...\Data-Analyst> `
 
 </details>
 
