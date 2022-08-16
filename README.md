@@ -29,7 +29,7 @@ Activate the virtual environment, run:
 .\.venv\Scripts\Activate.ps1
 ```
 
-You should now see a (.venv) in front of your current directory in the terminal like this: `(.venv) PS D:\Programming\Projects\Data-Analyst> `
+You should now see a (.venv) in front of your current directory in the terminal like this: `(.venv) PS ...\Data-Analyst> `
 
 </details>
 
@@ -141,13 +141,13 @@ Run the project
 
 1. change your directory into the frontend folder, inside Data_Analyst
 
-run the dev command, which is located inside `package.json` and bundles all files using webpack in development mode
+2. run the dev command, which bundles all files using webpack in development mode
 
 ```
 npm run dev
 ```
 
-2. change directory into the parent folder and run the following command:
+3. change directory into the parent folder and run the following command:
 
 ```
 python .\manage.py runserver
@@ -155,7 +155,7 @@ python .\manage.py runserver
 
 this will start a development server using Django
 
-3. go to http://127.0.0.1:8000/
+4. go to http://127.0.0.1:8000/
 
 </details>
 
